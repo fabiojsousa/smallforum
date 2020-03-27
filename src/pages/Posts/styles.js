@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
 
   header {
     display: flex;
@@ -17,6 +22,7 @@ export const Container = styled.div`
   h2 {
     margin-bottom: 10px;
     font-weight: normal;
+    width: 100%;
   }
 
   .posts {
@@ -25,14 +31,5 @@ export const Container = styled.div`
     width: 100%;
     height: 70px;
     padding: 15px;
-
-    a {
-      color: rgb(0, 119, 204);
-
-      :hover {
-        color: rgb(0, 149, 255);
-      }
-    }
-
   }
 `;

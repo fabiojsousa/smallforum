@@ -27,7 +27,12 @@ export default createGlobalStyle`
     }
 
     a {
-        text-decoration: none;
+      color: rgb(0, 119, 204);
+      text-decoration: none;
+
+      :hover {
+        color: rgb(0, 149, 255);
+      }
     }
 
     ul{
@@ -41,10 +46,11 @@ export default createGlobalStyle`
 
 export const Wrapper = styled.div`
   height: 100%;
+  overflow: auto;
 `;
 
 export const Main = styled.div`
   max-width: 900px;
   margin: 0 auto;
-  padding: 70px 10px 10px;
+  padding: 80px 10px 10px;
 `;
