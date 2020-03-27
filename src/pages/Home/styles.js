@@ -10,21 +10,21 @@ export const Container = styled.div`
   div {
     display: flex;
     background-color: rgb(255, 255, 231);
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     font-size: 35px;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
     color: black;
     border: 1px dashed black;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 1px 2px 5px 1px darkgray;
 
     &:hover {
       border: 3px solid black;
-      width: 270px;
-      height: 220px;
-      box-shadow: 3px 3px 5px 6px lightgreen;
+      width: 220px;
+      height: 170px;
+      box-shadow: 1px 2px 5px 1px lightgreen;
     }
   }
 

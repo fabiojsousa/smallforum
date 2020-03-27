@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Container>
       <Link to="/">
-        <strong>SMALL FORUM</strong>
+        <span>SMALL</span> <span>FORUM</span>
       </Link>
     </Container>
   );

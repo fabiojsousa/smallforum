@@ -1,32 +1,38 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 10px;
-  
-  
+  text-align: left;
+
   header {
     display: flex;
-    width: 100%;
-    align-items: right;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
 
-    div{
+    div {
       display: block;
-      width: 250px;
     }
   }
 
-  h1 {
+  h2 {
     margin-bottom: 10px;
+    font-weight: normal;
   }
 
   .posts {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin-bottom: 5px;
-    background: rgb(228, 230, 231);
+    background: rgb(253, 247, 227);;
     width: 100%;
     height: 70px;
     padding: 15px;
+
+    a {
+      color: rgb(0, 119, 204);
+
+      :hover {
+        color: rgb(0, 149, 255);
+      }
+    }
+
   }
 `;

@@ -46,4 +46,5 @@ export const Wrapper = styled.div`
 export const Main = styled.div`
   max-width: 900px;
   margin: 0 auto;
+  padding: 70px 10px 10px;
 `;
