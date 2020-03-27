@@ -27,7 +27,7 @@ export const Container = styled.div`
 
   .posts {
     margin-bottom: 5px;
-    background: rgb(253, 247, 227);;
+    background: rgb(253, 247, 227);
     width: 100%;
     height: 70px;
     padding: 15px;

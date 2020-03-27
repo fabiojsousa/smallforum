@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 import { Container } from "./styles";
 import api from "../../services/api";
+import { shortName } from "../../services/util";
 import Loading from "../../components/Loading";
+
 
 export default function Comments({ match }) {
   const [lading, setLoading] = useState(true);
@@ -56,17 +58,17 @@ export default function Comments({ match }) {
                   <div>
                     <small>Answered by</small>
                     <p>
-                      <small>
+                      {/* <small>
                         <label>Name: </label>
-                      </small>
-                      <small>{c.name}</small>
+                      </small> */}
+                      <small>{shortName(c.name)}</small>
                     </p>
-                    <p>
+                    {/* <p>
                       <small>
                         <label>Email: </label>
                       </small>
                       <small>{c.email}</small>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

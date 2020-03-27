@@ -27,15 +27,15 @@ export default function Posts() {
         <Loading />
       ) : (
         <>
-          <h2>All Posts</h2>
+          <h2>Posts | Total: {allPosts.length}</h2>
           {allPosts.map(p => (
             <div className="posts" key={p.id}>
               <p>
                 <Link to={`/posts/${p.id}`}>{p.title}</Link>
               </p>
               <small>
-                Started by{" "}
-                <Link to={`users/${p.userId}`}>user id {p.userId}</Link>
+                Started by
+                <Link to={`users/${p.userId}`}> user id {p.userId}</Link>
               </small>
             </div>
           ))}

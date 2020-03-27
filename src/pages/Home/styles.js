@@ -6,27 +6,23 @@ export const Container = styled.div`
   justify-content: space-around;
   min-height: 600px;
 
-
-  div {
+  a {
     display: flex;
     background-color: rgb(255, 255, 231);
-    width: 200px;
+    width: 150px;
     height: 150px;
     font-size: 35px;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    color: black;
-    border: 1px dashed black;
+    color: rgb(0, 119, 204);
+    border: 1px solid rgb(0, 119, 204);
     box-shadow: 1px 2px 5px 1px darkgray;
 
     &:hover {
-      border: 3px solid black;
-      width: 220px;
-      height: 170px;
+      color: rgb(0, 149, 255);
+      border: 2px solid rgb(0, 149, 255);
       box-shadow: 1px 2px 5px 1px lightgreen;
     }
   }
-
-  
 `;

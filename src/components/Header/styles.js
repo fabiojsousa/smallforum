@@ -14,7 +14,6 @@ export const Container = styled.div`
 
   a {
     font-size: 45px;
-    color: black;
 
     /* :hover {
       background-color: rgb(228, 230, 232);
