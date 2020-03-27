@@ -48,7 +48,7 @@ export const Container = styled.div`
 
         div {
           display: block;
-          width: 200px;
+          width: 80px;
 
           small {
             color: rgb(106, 115, 124);
