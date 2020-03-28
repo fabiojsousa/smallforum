@@ -10,7 +10,7 @@
 
 O projeto foi publicado no Github pages para facilitar a sua visualização. 
 
-Devido o Github pages não ser compatível com a navegação do `Browser router`, foi feita apenas a modificação no projeto para utilizar o `Hash router` na live version. 
+Devido o Github pages não ser compatível com a navegação do `BrowserRouter`, foi feita apenas a modificação no projeto para utilizar o `HashRouter` na live version. 
 
 O código no branch master está com a navegação do `Browser router`.
 
