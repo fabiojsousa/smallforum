@@ -17,14 +17,14 @@ export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 
     .user {
       background: rgb(253, 247, 227);
       display: block;
       width: 200px;
       height: 200px;
-      margin: 5px 5px;
+      margin: 5px 5px 0 0;
       padding: 5px;
       border-radius: 5px;
       color: black;

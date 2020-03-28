@@ -69,7 +69,7 @@ export default function UserProfile({ match }) {
                   <dd>{user.address.city}</dd>
                 </div>
                 <div>
-                  <dt>Zipcode</dt>
+                  <dt>ZIP Code</dt>
                   <dd>{user.address.zipcode}</dd>
                 </div>
                 <div>

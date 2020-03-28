@@ -14,10 +14,6 @@ export const Container = styled.div`
 
   a {
     font-size: 45px;
-
-    /* :hover {
-      background-color: rgb(228, 230, 232);
-    } */
   }
   span:last-child {
     font-weight: bold;
