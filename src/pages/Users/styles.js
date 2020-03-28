@@ -17,7 +17,6 @@ export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: center; */
 
     .user {
       background: rgb(253, 247, 227);

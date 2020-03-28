@@ -58,17 +58,8 @@ export default function Comments({ match }) {
                   <div>
                     <small>Answered by</small>
                     <p>
-                      {/* <small>
-                        <label>Name: </label>
-                      </small> */}
                       <small>{shortName(c.name)}</small>
                     </p>
-                    {/* <p>
-                      <small>
-                        <label>Email: </label>
-                      </small>
-                      <small>{c.email}</small>
-                    </p> */}
                   </div>
                 </div>
               </div>
