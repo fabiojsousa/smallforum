@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/smallforum/static/js/main.e13baead.chunk.js",
+    "main.js.map": "/smallforum/static/js/main.e13baead.chunk.js.map",
+    "runtime-main.js": "/smallforum/static/js/runtime-main.64657aa6.js",
+    "runtime-main.js.map": "/smallforum/static/js/runtime-main.64657aa6.js.map",
+    "static/js/2.0869fde3.chunk.js": "/smallforum/static/js/2.0869fde3.chunk.js",
+    "static/js/2.0869fde3.chunk.js.map": "/smallforum/static/js/2.0869fde3.chunk.js.map",
+    "index.html": "/smallforum/index.html",
+    "precache-manifest.0f288292b3c07f23fbdc2d3f9dcaca61.js": "/smallforum/precache-manifest.0f288292b3c07f23fbdc2d3f9dcaca61.js",
+    "service-worker.js": "/smallforum/service-worker.js",
+    "static/js/2.0869fde3.chunk.js.LICENSE.txt": "/smallforum/static/js/2.0869fde3.chunk.js.LICENSE.txt",
+    "static/media/loading.gif": "/smallforum/static/media/loading.018d2ac3.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64657aa6.js",
+    "static/js/2.0869fde3.chunk.js",
+    "static/js/main.e13baead.chunk.js"
+  ]
+}
