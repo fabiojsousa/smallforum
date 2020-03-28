@@ -12,6 +12,6 @@ O projeto foi publicado no Github pages para facilitar a sua visualização.
 
 Devido o Github pages não ser compatível com a navegação do `BrowserRouter`, foi feita apenas a modificação no projeto para utilizar o `HashRouter` na live version. 
 
-O código no branch master está com a navegação do `Browser router`.
+O código no branch master está com a navegação do `BrowserRouter`.
 
 Link da Live version: https://fabiojsousa.github.io/smallforum
